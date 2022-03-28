@@ -1,0 +1,519 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.container-box{
+    width: 90%;
+    margin: 0 auto;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+
+
+
+
+
+/* --->HEADER<--- */
+header{
+    background-color: #212529;
+}
+header .all{
+    display: flex;
+    padding: 1rem 0;
+}
+
+header .all .left{
+    width: 30%;
+}
+header .all .left a{
+    color: white;
+    font-size: 20px;
+}
+header .all .right{
+    display: flex;
+    justify-content: flex-end;
+    width: 70%;
+}
+header .all .right i{
+    display: none;
+}
+header .all .right .box{
+    width: 7%;
+    text-align: center;
+}
+header .all .right .box a{
+    font-size: 17px;
+    color: #6A727A;
+}
+
+
+
+
+/* --->INFO<--- */
+#info{
+    background-color: #212529;
+}
+#info .all{
+    display: flex;
+    padding: 5rem 0;
+}
+#info .all .left{
+    width: 50%;
+}
+#info .all .left h1{
+    font-size: 47px;
+    color: white;
+    padding: 50px 0 10px 0;
+}
+#info .all .left p{
+    color: #6A727A;
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+#info .all .left #btn{
+    display: flex;
+    width: 60%;
+}
+#info .all .left #btn .left{
+    width: 60%;
+}
+#info .all .left #btn .right{
+    width: 40%;
+}
+#blue-btn{
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #0D6EFD;
+    color: white;
+    border: 1px solid #0D6EFD;
+    margin-right: 25px;
+    transition: 0.3s;
+}
+#blue-btn:hover{
+   background-color: #0d6dfda8;
+   border: 1px solid #0d6dfda8;
+}
+#white-btn{
+    padding: 10px 20px;
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    transition: 0.3s;
+}
+#white-btn:hover{
+    background-color: white;
+    color: black;
+}
+#info .all .right{
+    width: 50%;
+}
+#info .all .right img{
+    border-radius: 5px;
+}
+
+
+
+
+
+/* --->TYPE<--- */
+#type .all{
+    display: flex;
+    padding: 100px 0;
+}
+#type .all .left{
+    width: 35%;
+}
+#type .all .left h1{
+    padding: 50px 0 100px 0;
+    font-size: 30px;
+}
+#type .all .right{
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#type .all .right h1{
+    display: none;
+    font-size: 18px;
+    padding: 40px 0 0 0;
+}
+#type .all .right .box{
+    width: 50%;
+}
+#type .all .right .box i{
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: #0D6EFD;
+    color: white;
+    margin: 50px 0 30px 0;
+}
+#type .all .right .box h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+/* --->WORDS<--- */
+#words{
+    background-color: #F8F9FA;
+    padding: 5rem 0;
+}
+#words .all{
+    text-align: center;
+}
+#words .all .bottom{
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#words .all .bottom img{
+    border-radius: 100%;
+}
+#words .all .bottom span{
+    font-size: 15px;
+}
+#words .all .bottom #blue-span{
+    color: #0D6EFD;
+}
+
+
+
+
+
+
+
+
+
+/* --->BLOGS<--- */
+#blogs{
+    background-color: #FFFFFF;
+}
+#blogs .all{
+    padding: 100px 0 0 0;
+}
+#blogs .all .top{
+    text-align: center;
+    margin-top: 40px;
+}
+#blogs .all .top h2{
+    font-size: 30px;
+}
+#blogs .all .top p{
+    font-size: 20px;
+    padding: 10px 0 0 0;
+    color: #6C757D;
+}
+#blogs .all .bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+#blogs .all .bottom .box{
+    width: 30%;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+}
+#blogs .all .bottom .box .box-top img{
+    width: 100%;
+}
+#blogs .all .bottom .box .box-top{
+    margin-bottom: 20px;
+}
+#blogs .all .bottom .box .box-bottom a{
+    font-size: 13px;
+    padding: 1px 5px;
+    background-color: #0D6EFD;
+    border-radius: 10px;
+    color: white;
+}
+#blogs .all .bottom .box .box-bottom h2{
+    font-size: 20px;
+    padding: 10px 0;
+}
+#blogs .all .bottom .box .box-bottom p{
+    font-size: 18px;
+}
+#blogs .all .bottom .box .box-bottom .profil{
+    display: flex;
+    padding: 40px 0;
+}
+#blogs .all .bottom .box .box-bottom .profil .profil-img{
+    width: 10%;
+}
+#blogs .all .bottom .box .box-bottom .profil .profil-img img{
+    margin-top: 4px;
+    width: 100%;
+    border-radius: 100%;
+}
+#blogs .all .bottom .box .box-bottom .profil .small{
+    padding: 0 0 0 10px;
+}
+#blogs .all .bottom .box .box-bottom .profil .small .activ{
+    color: #6A727A;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+/* --->SIGN UP<--- */
+#siginup{
+    padding: 100px 0;
+}
+.all-sigin{
+    background-color: #0D6EFD;
+    border-radius: 8px;
+    display: flex;
+    padding: 3rem 0;
+}
+.all-sigin .left{
+    width: 70%;
+}
+.all-sigin .left h1{
+    color: white;
+}
+.all-sigin .left p{
+    color: rgba(255, 255, 255, 0.5);
+}
+.all-sigin .left .top-text{
+    padding-left: 25px;
+}
+.all-sigin .right{
+    width: 30%;
+}
+.all-sigin .right .input-box{
+    display: flex;
+    align-items: center;
+}
+.all-sigin .right p{
+    padding: 5px 0 0 0;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.all-sigin .right .input-box a{
+    padding: 6px 15px;
+    color: white;
+    border: 1px solid white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.all-sigin .right .input-box input{
+    padding: 10px 70px 10px 10px;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+
+
+
+
+/* --->FOOTER<--- */
+footer{
+    padding: 1.7rem 0;
+    background-color: #212529;
+}
+footer .all{
+    display: flex;
+}
+footer .all .left{
+    width: 85%;
+}
+footer .all .left p{
+    color: white;
+    font-size: 14px;
+}
+footer .all .right p a{
+    color: white;
+    text-decoration: 1px underline;
+}
+footer .all .right{
+    width: 15%;
+}
+footer .all .right p{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+/* --->RESPONSIVE<--- */
+
+@media (max-width:576px){
+   /* --->HEADER<--- */
+    header .all{
+       align-items: center;
+    }
+    header .all .left{
+        width: 50%;
+    }
+    header .all .left a{
+        font-size: 18px;
+    }
+    header .all .right{
+        width: 50%;
+    }
+    header .all .right i{
+        display: block;
+        color: #6A727A;
+        font-size: 20px;
+        padding: 10px 20px;
+        border: 1px solid #6A727A;
+        border-radius: 5px;
+    }
+    header .all .right .box{
+        display: none;
+    }
+    .container{
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+
+    /* --->INFO<--- */
+    #info .all{
+        display: block;
+    }
+    #info .all .right{
+        display: none;
+    }
+    #info .all .left{
+        width: 100%;
+        text-align: center;
+    }
+    #info .all .left h1{
+        font-size: 26px;
+    }
+    #info .all .left #btn{
+        display: none;
+    }
+    #info .all .left #btn .left{
+        width: 100%;
+    }
+    #info .all .left #btn .right{
+        width: 100%;
+        margin-top: 40px;
+    }
+    #blue-btn{
+        padding: 10px 60px;
+    }
+    #white-btn{
+        padding: 10px 28px;
+    }
+
+
+
+    /* --->TYPE<--- */
+    #type .container .all .left{
+        display: none;
+    }
+    #type .container .all .right{
+        width: 100%;
+    }
+    #type .container .all .right h1{
+        display: block;
+    }
+    #type .container .all .right .box {
+        width: 100%;
+    }
+    #type .container .all .right .box p{
+        font-size: 13px;
+    }
+
+
+    /* --->WORDS<--- */
+    #words .all h1{
+        font-size: 13px;
+    }
+    #words .all .bottom span{
+        font-size: 12px;
+    }
+
+
+    /* --->BLOGS<--- */
+    #blogs .all .bottom{
+        display: block;
+    }
+    #blogs .all .bottom .box{
+        width: 100%;
+        margin: 50px 0;
+    }
+
+
+    /*--->siginup<---  */
+    #siginup .all-sigin{
+        display: block;
+    }
+    #siginup .all-sigin .left{
+        width: 100%;
+        text-align: center;
+    }
+    #siginup .all-sigin .left h1{
+        font-size: 13px;
+    }
+    #siginup .all-sigin .left p{
+        font-size: 10px;
+    }
+    #siginup .all-sigin .right{
+        padding: 20px 0 0 0;
+        text-align: center;
+        width: 100%;
+    }
+    #siginup .all-sigin .left .top-text{
+        padding-right: 25px;
+    }
+    #siginup .all-sigin .right p{
+        font-size: 10px;
+    }
+    #siginup .all-sigin .right .input-box{
+        justify-content: center;
+    }
+    #siginup .all-sigin .right .input-box a{
+        padding: 4px 10px;
+    }
+    #siginup .all-sigin .right .input-box input{
+        padding: 8px 40px 8px 10px;
+    }
+
+    /* --->FOOTER<--- */
+    footer .all{
+        display: block;
+        text-align: center;
+    }
+    footer .all .left{
+        width: 100%;
+    }
+    footer .all .right{
+        width: 100%;
+    }
+
+}
